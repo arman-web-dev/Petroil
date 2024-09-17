@@ -11,11 +11,11 @@ const Header = () => {
             <div className='container mx-auto'>
                 <div className=" flex items-center text-white flex-wrap">
                     <div className="w-full lg:w-1/4 flex items-center text-white gap-x-2 justify-center lg:justify-start">
-                    <TbMailCancel />
+                        <TbMailCancel />
                         <p className='lg:text-[#fff] text-[red] text-[12px] font-pops font-normal'>mail@yourcompany.com</p>
                     </div>
                     <div className="w-full lg:w-1/4 flex items-center text-white gap-x-2 justify-center lg:justify-start py-2 lg:py-0">
-                    <MdWifiCalling3 />
+                        <MdWifiCalling3 />
                         <p className='text-white text-[12px] font-pops font-normal'>+896 120 5889 (Toll free)</p>
                     </div>
                     <div className="w-full lg:w-1/2 flex items-center gap-x-3 lg:justify-end justify-center">

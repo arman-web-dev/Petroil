@@ -13,7 +13,6 @@ const NavBar = () => {
           <div className="w-1/4 pl-3 lg:pl-0">
             <img src={Logo} alt="logo" />
           </div>
-
           <div className="hidden lg:flex w-3/4 justify-end items-center">
             <ul className='flex flex-row gap-x-10 cursor-pointer'>
               <li className='text-white text-[16px] font-pops font-semibold hover:text-[#282828] duration-300 ease-in-out '>Home</li>
@@ -24,12 +23,10 @@ const NavBar = () => {
               <li className='text-white text-[16px] font-pops font-semibold hover:text-[#282828] duration-300 ease-in-out '>Contact</li>
             </ul>
           </div>
-
           <div onClick={() => setShow(!show)} className="lg:hidden cursor-pointer text-white text-2xl pr-2">
             {show ? <RxCross1 /> : <FaBars />}
           </div>
         </div>
-
         {show && (
           <div className="lg:hidden">
             <ul className='flex flex-col items-center gap-y-4 py-4'>

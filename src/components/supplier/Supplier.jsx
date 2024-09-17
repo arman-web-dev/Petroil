@@ -9,7 +9,6 @@ const Supplier = () => {
                         The biggest supplier in the country
                     </h3>
                 </div>
-
                 <div className="w-full lg:w-[50%]"> {/* Changed w-[50%] to w-full for small screens and lg:w-[50%] for large screens */}
                     <p className='text-center lg:text-left'> {/* Added text-center for small screens */}
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.
