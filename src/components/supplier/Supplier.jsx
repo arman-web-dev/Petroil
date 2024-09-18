@@ -3,9 +3,9 @@ import React from 'react';
 const Supplier = () => {
     return (
         <div className='py-[100px]'>
-            <div className="container mx-auto flex flex-col lg:flex-row items-center"> 
-                <div className="w-full lg:w-[27%] mb-6 lg:mb-0">
-                    <h3 className='text-[36px] lg:text-[48px] font-pops font-bold w-full lg:w-[80%] text-center lg:text-left'>
+            <div className="container mx-auto flex flex-col lg:flex-row items-center justify-around"> 
+                <div className="w-full lg:w-[25%] mb-6 lg:mb-0">
+                    <h3 className='text-[36px] lg:text-[48px] font-pops font-bold w-full lg:w-[100%] text-center lg:text-center'>
                         The biggest supplier in the country
                     </h3>
                 </div>
