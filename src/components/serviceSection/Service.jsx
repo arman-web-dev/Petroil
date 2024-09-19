@@ -7,7 +7,7 @@ const Service = () => {
     return (
         <section className="py-[30px] flex flex-wrap items-center gap-3 lg:gap-0">
 
-            <div className="container lg:w-1/2 w-full text-center lg:text-left">
+            <div className="container lg:w-1/2 w-full text-center lg:text-left lg:pl-[100px] lg:pr-[20px]">
                 <h3 className="text-2xl font-bold">Our Services</h3>
                 <p className="mt-4">
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
